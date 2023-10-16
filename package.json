@@ -5,8 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "kill": "node kill-node.js ti-index.js"
+    "start": "node ti-index.js",
+    "kill": "node kill-node.js ti-index.js",
+    "app-start": "nohup node ti-index.js &",
+    "list-node-apps": "ps -ef | grep node"
   },
   "author": "",
   "license": "ISC",
